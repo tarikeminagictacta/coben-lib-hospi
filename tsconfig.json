@@ -17,6 +17,14 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "@coben-lib/hospi": [
+        "projects/coben-lib-hospi/src"
+      ],
+      "@coben-lib/hospi/*": [
+        "projects/coben-lib-hospi/src/*"
+      ]
+    }
   }
 }
